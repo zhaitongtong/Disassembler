@@ -1,0 +1,5 @@
+    rrmovq  %rax, %rcx          # 2001                  
+    .byte   0xc0         # c0                    
+    halt                  # 00                    
+    .byte   0xc0         # c0                    
+    nop                   # 10                    

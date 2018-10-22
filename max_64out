@@ -1,0 +1,35 @@
+    irmovq  $0x1000, %rbx
+    mrmovq  0x0(%rbx), %rbx
+    irmovq  $0x1008, %rcx
+    mrmovq  0x0(%rcx), %rcx
+    irmovq  $0x80000000, %rax
+    irmovq  $0x4, %rdi
+    irmovq  $0x1, %rdx
+    subq    %rdx, %rcx          #                       
+    jl      $0x175              #                       
+    mrmovq  0x0(%rbx), %rdx
+    addq    %rdi, %rbx          #                       
+    rrmovq  %rdx, %rsi          #                       
+    subq    %rax, %rsi          #                       
+    jle     $0x13c              #                       
+    rrmovq  %rdx, %rax          #                       
+    jmp     $0x13c              #                       
+    irmovq  $0x1010, %rbx
+    rmmovq  $0, %rbx
+    halt                  # 
+    rrmovq  %rax, %rax          #                       
+    halt                  # 
+    .quad   $0xa              #                       
+    halt                  # 
+    .quad   $0xe              #                       
+    .quad   $0x3              #                       
+    .quad   $0x1d              #                       
+    .quad   $0xf              #                       
+    nop                   # 
+    halt                  # 
+    .quad   $0x2be              #                       
+    .quad   $0x141              #                       
+    .quad   $0x2b              #                       
+    .quad   $0xffffff9c              #                       
+    rrmovq  %rax, %rax          #                       
+    halt                  # 

@@ -1,0 +1,4 @@
+    .byte   0x1         # 01                    
+    rrmovq  %rax, %rdx          # 2002                  
+    rrmovq  %rax, %rbx          # 2003                  
+    rrmovq  %rax, %rsp          # 2004                  

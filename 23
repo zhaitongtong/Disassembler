@@ -1,0 +1,933 @@
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6f6d63202020200a          # 0a20202020636d6f      
+    jg      0x7864722520202065               # 766520202025726478    
+    .quad   0x202078617225202c          # 2c20257261782020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323332          # 3233323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x726f78202020200a          # 0a20202020786f72      
+    jle     0x7862722520202020               # 712020202025726278    
+    .quad   0x202078617225202c          # 2c20257261782020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030333336          # 3633333020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x75712e202020200a          # 0a202020202e7175      
+    subq    %rsi, %rsp          # 6164                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rbx, %rax          # 2030                  
+    .quad   0x3238363136633678          # 7836633631363832      
+    .quad   0x3030323032303230          # 3032303230323030      
+    subq    %rdx, %rax          # 6120                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rax          # 2030                  
+    subq    %rbx, %rdx          # 6132                  
+    .quad   0x3630323032303230          # 3032303230323036      
+    .quad   0x2020206336313638          # 3836313663202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x2020202020656e6a          # 6a6e652020202020      
+    .quad   0x3032303230327830          # 3078323032303230      
+    .quad   0x3032303230323032          # 3230323032303230      
+    .quad   0x2020202020203032          # 3230202020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdi          # 2037                  
+    .quad   0x3230323032303234          # 3432303230323032      
+    .quad   0x3230323032303230          # 3032303230323032      
+    .quad   0x20200a2020202030          # 30202020200a2020      
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    xorq    %rsi, %r13          # 636D                  
+    .quad   0x722520202065766f          # 6f76652020202572      
+    .quad   0x78617225202c7864          # 64782c2025726178      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323332          # 3233323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x75712e202020200a          # 0a202020202e7175      
+    subq    %rsi, %rsp          # 6164                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rbx, %rax          # 2030                  
+    .quad   0x3230323032303278          # 7832303230323032      
+    .quad   0x3330333032303230          # 3032303230333033      
+    .quad   0x2020202020202030          # 3020202020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rbx          # 2033                  
+    .quad   0x3230323032303330          # 3033303230323032      
+    .quad   0x2030323032303230          # 3032303230323020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x75712e202020200a          # 0a202020202e7175      
+    subq    %rsi, %rsp          # 6164                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rbx, %rax          # 2030                  
+    .quad   0x3633373032303378          # 7833303230373336      
+    .quad   0x3061306532303766          # 6637303265306130      
+    subq    %rdx, %rax          # 6120                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rax          # 2030                  
+    subq    %rbx, %rax          # 6130                  
+    subq    %rbx, %rdx          # 6132                  
+    .quad   0x3233376636303765          # 6537303666373332      
+    .quad   0x2020202020303330          # 3033302020202020      
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x202020646175712e          # 2e71756164202020      
+    .quad   0x3032303265367830          # 3078366532303230      
+    .quad   0x3333613030323032          # 3230323030613333      
+    .quad   0x2020202020203837          # 3738202020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x3032613033333837          # 3738333330613230      
+    .quad   0x6536303230323032          # 3230323032303665      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x75712e202020200a          # 0a202020202e7175      
+    subq    %rsi, %rsp          # 6164                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rbx, %rax          # 2030                  
+    .quad   0x3230323032303278          # 7832303230323032      
+    .quad   0x3630373032303230          # 3032303230373036      
+    .quad   0x2020202020202066          # 6620202020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rsi          # 2036                  
+    .quad   0x3230323032303766          # 6637303230323032      
+    .quad   0x2030323032303230          # 3032303230323020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078627225202c78          # 782c202572627820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020333230          # 3032332020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78637225202c7862               # 7262782C2025726378    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202031333032          # 3230333120202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x75712e202020200a          # 0a202020202e7175      
+    subq    %rsi, %rsp          # 6164                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rbx, %rax          # 2030                  
+    .quad   0x3230323032303278          # 7832303230323032      
+    .quad   0x3330323032303230          # 3032303230323033      
+    .quad   0x2020202020202030          # 3020202020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rbx          # 2033                  
+    .quad   0x3230323032303230          # 3032303230323032      
+    .quad   0x2030323032303230          # 3032303230323020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x78617225202c7864               # 7264782C2025726178    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202030323032          # 3230323020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .quad   0x6d7272202020200a          # 0a2020202072726d      
+    .quad   0x647225202071766f          # 6f76712020257264      
+    .quad   0x2078617225202c78          # 782c202572617820      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rbx          # 2023                  
+    rrmovq  %rbx, %rdx          # 2032                  
+    .quad   0x2020202020303230          # 3032302020202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rax, %r10          # 200A                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    jl      0x25202071766f6d72               # 72726D6F7671202025    
+    jl      0x30317225202c7861               # 7261782C2025723130    
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    cmove   %rdx, %rax          # 2320                  
+    .quad   0x2020202041303032          # 3230304120202020      
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    rrmovq  %rdx, %rax          # 2020                  
+    .byte   0xa         # 0a                    

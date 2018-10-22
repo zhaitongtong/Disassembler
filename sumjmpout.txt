@@ -1,0 +1,36 @@
+    irmovq  $0x200, %rsp         # 30f40002000000000000  
+    call    0x14              # 801400000000000000    
+    halt                  # 00                    
+    irmovq  $0x80, %rdi         # 30f78000000000000000  
+    irmovq  $0x4, %rsi         # 30f60400000000000000  
+    call    0x32              # 803200000000000000    
+    ret                   # 90                    
+    irmovq  $0x8, %r8         # 30f80800000000000000  
+    irmovq  $0x1, %r9         # 30f90100000000000000  
+    xorq    %rax, %rax          # 6300                  
+    andq    %rsi, %rsi          # 6266                  
+    jmp     0x72              # 707200000000000000    
+    mrmovq  0x0(%rdi), %r10 # 50a70000000000000000  
+    xorq    %r11, %r11          # 63bb                  
+    subq    %r10, %r11          # 61ab                  
+    jle     0x6c              # 716c00000000000000    
+    rrmovq  %r11, %r10          # 20ba                  
+    addq    %r10, %rax          # 60a0                  
+    addq    %r8, %rdi          # 6087                  
+    subq    %r9, %rsi          # 6196                  
+    jne     0x53              # 745300000000000000    
+    ret                   # 90                    
+    halt                  # 00                    
+
+.pos 0x80
+    .quad   0xd000d000d  # 0d000d000d000000      
+    .quad   0xffffff3fff3fff40  # 40ff3fff3fffffff      
+    halt                  # 00                    
+    .quad   0xb000b000b  # 0b000b000b000000      
+    .byte   0x60         # 60                    
+    .byte   0xff         # ff                    
+    .byte   0x5f         # 5f                    
+    .byte   0xff         # ff                    
+    .byte   0x5f         # 5f                    
+    .byte   0xff         # ff                    
+    .byte   0xff         # ff                    

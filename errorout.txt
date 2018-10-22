@@ -1,0 +1,62 @@
+.pos 0x10
+    nop                   # 10                    
+    halt                  # 00                    
+
+.pos 0x20
+    addq    %rax, %rax          # 6000                  
+    halt                  # 00                    
+
+.pos 0x30
+    addq    %rax, %rcx          # 6001                  
+    halt                  # 00                    
+
+.pos 0x40
+    addq    %rax, %rdx          # 6002                  
+    halt                  # 00                    
+
+.pos 0x50
+    addq    %rax, %rbx          # 6003                  
+    halt                  # 00                    
+
+.pos 0x60
+    jle     0xdaddad              # 71adddda0000000000    
+    halt                  # 00                    
+
+.pos 0x70
+    jl      0xdaddda              # 72daddda0000000000    
+    halt                  # 00                    
+
+.pos 0x80
+    je      0xdaddad              # 73adddda0000000000    
+    halt                  # 00                    
+
+.pos 0x90
+    jne     0xdaddad              # 74adddda0000000000    
+    halt                  # 00                    
+
+.pos 0x100
+    jge     0xdaddad              # 75adddda0000000000    
+    halt                  # 00                    
+
+.pos 0x110
+    jg      0xdaddad              # 76adddda0000000000    
+    halt                  # 00                    
+
+.pos 0x120
+    cmovl   %rax, %rax          # 2200                  
+    halt                  # 00                    
+
+.pos 0x130
+    cmovl   %rax, %rcx          # 2201                  
+    halt                  # 00                    
+
+.pos 0x140
+    cmovl   %rax, %rdx          # 2202                  
+    halt                  # 00                    
+
+.pos 0x150
+    ret                   # 90                    
+    halt                  # 00                    
+
+.pos 0x160
+    call    0x1234567890123456              # 805634129078563412    

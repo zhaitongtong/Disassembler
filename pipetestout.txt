@@ -1,0 +1,131 @@
+.pos 0x100
+    irmovq  $0x1, %rax          # 30F00100000000000000  
+    irmovq  $0x2, %rax          # 30F00200000000000000  
+    rrmovq  %rax, %rcx          # 2001                  
+    irmovq  $0x1, %rdx          # 30F20100000000000000  
+    irmovq  $0x2, %rdx          # 30F20200000000000000  
+    irmovq  $0x3, %rdx          # 30F20300000000000000  
+    rrmovq  %rdx, %rbx          # 2023                  
+    halt                        # 00                    
+
+.pos 0x200
+    irmovq  $0x0, %rax          # 30F00000000000000000  
+    irmovq  $0x0, %rcx          # 30F10000000000000000  
+    irmovq  $0x0, %rdx          # 30F20000000000000000  
+    irmovq  $0x0, %rbx          # 30F30000000000000000  
+    irmovq  $0x1, %rax          # 30F00100000000000000  
+    addq    %rax, %rbx          # 6003                  
+    irmovq  $0x2, %rcx          # 30F10200000000000000  
+    nop                         # 10                    
+    addq    %rcx, %rbx          # 6013                  
+    irmovq  $0x3, %rdx          # 30F20300000000000000  
+    nop                         # 10                    
+    nop                         # 10                    
+    addq    %rdx, %rbx          # 6023                  
+    halt                        # 00                    
+
+.pos 0x300
+    irmovq  $0x0, %rax          # 30F00000000000000000  
+    irmovq  $0x0, %rcx          # 30F10000000000000000  
+    irmovq  $0x0, %rdx          # 30F20000000000000000  
+    irmovq  $0x10, %rbx          # 30F31000000000000000  
+    irmovq  $0x1, %rax          # 30F00100000000000000  
+    addq    %rbx, %rax          # 6030                  
+    irmovq  $0x2, %rcx          # 30F10200000000000000  
+    nop                         # 10                    
+    addq    %rbx, %rcx          # 6031                  
+    irmovq  $0x3, %rdx          # 30F20300000000000000  
+    nop                         # 10                    
+    nop                         # 10                    
+    addq    %rbx, %rdx          # 6032                  
+    halt                        # 00                    
+
+.pos 0x400
+    irmovq  $0x0, %rax          # 30F00000000000000000  
+    irmovq  $0x0, %rcx          # 30F10000000000000000  
+    irmovq  $0x0, %rdx          # 30F20000000000000000  
+    irmovq  $0x0, %rbx          # 30F30000000000000000  
+    irmovq  $0x1000, %rdi          # 30F70010000000000000  
+    mrmovq  0x0(%rdi), %rax     # 50070000000000000000  
+    addq    %rax, %rbx          # 6003                  
+    mrmovq  0x0(%rdi), %rcx     # 50170000000000000000  
+    nop                         # 10                    
+    addq    %rcx, %rbx          # 6013                  
+    mrmovq  0x0(%rdi), %rdx     # 50270000000000000000  
+    nop                         # 10                    
+    nop                         # 10                    
+    addq    %rdx, %rbx          # 6023                  
+    halt                        # 00                    
+
+.pos 0x500
+    irmovq  $0x0, %rax          # 30F00000000000000000  
+    irmovq  $0x0, %rcx          # 30F10000000000000000  
+    irmovq  $0x0, %rdx          # 30F20000000000000000  
+    irmovq  $0x10, %rbx          # 30F31000000000000000  
+    irmovq  $0x1000, %rdi          # 30F70010000000000000  
+    mrmovq  0x0(%rdi), %rax     # 50070000000000000000  
+    addq    %rbx, %rax          # 6030                  
+    mrmovq  0x0(%rdi), %rcx     # 50170000000000000000  
+    nop                         # 10                    
+    addq    %rbx, %rcx          # 6031                  
+    mrmovq  0x0(%rdi), %rdx     # 50270000000000000000  
+    nop                         # 10                    
+    nop                         # 10                    
+    addq    %rbx, %rdx          # 6032                  
+    halt                        # 00                    
+
+.pos 0x600
+    irmovq  $0x0, %rax          # 30F00000000000000000  
+    irmovq  $0x0, %rcx          # 30F10000000000000000  
+    irmovq  $0x0, %rdx          # 30F20000000000000000  
+    irmovq  $0x0, %rbx          # 30F30000000000000000  
+    irmovq  $0x0, %rsp          # 30F40000000000000000  
+    andq    %rax, %rax          # 6200                  
+    je      0x653               # 735306000000000000    
+    irmovq  $0x1, %rcx          # 30F10100000000000000  
+    irmovq  $0x1, %rdx          # 30F20100000000000000  
+    nop                         # 10                    
+    halt                        # 00                    
+    irmovq  $0x1, %rbx          # 30F30100000000000000  
+    irmovq  $0x1, %rsp          # 30F40100000000000000  
+    halt                        # 00                    
+
+.pos 0x700
+    irmovq  $0x0, %rax          # 30F00000000000000000  
+    irmovq  $0x0, %rcx          # 30F10000000000000000  
+    irmovq  $0x0, %rdx          # 30F20000000000000000  
+    irmovq  $0x0, %rbx          # 30F30000000000000000  
+    irmovq  $0x0, %rsp          # 30F40000000000000000  
+    andq    %rax, %rax          # 6200                  
+    jne     0x752               # 745207000000000000    
+    irmovq  $0x1, %rcx          # 30F10100000000000000  
+    irmovq  $0x1, %rdx          # 30F20100000000000000  
+    halt                        # 00                    
+    irmovq  $0x1, %rbx          # 30F30100000000000000  
+    irmovq  $0x1, %rsp          # 30F40100000000000000  
+    halt                        # 00                    
+
+.pos 0x800
+    irmovq  $0xf028, %rsp          # 30F428F0000000000000  
+    irmovq  $0x0, %rax          # 30F00000000000000000  
+    irmovq  $0x0, %rcx          # 30F10000000000000000  
+    irmovq  $0x0, %rdx          # 30F20000000000000000  
+    call    0x83c               # 803C08000000000000    
+    irmovq  $0x1, %rcx          # 30F10100000000000000  
+    halt                        # 00                    
+    irmovq  $0x1, %rax          # 30F00100000000000000  
+    ret                         # 90                    
+    irmovq  $0x1, %rdx          # 30F20100000000000000  
+    halt                        # 00                    
+
+.pos 0x900
+    irmovq  $0x1, %rax          # 30F00100000000000000  
+    irmovq  $0x2, %rbx          # 30F30200000000000000  
+    xorq    %rcx, %rcx          # 6311                  
+    cmovne  %rax, %rbx          # 2403                  
+    addq    %rbx, %rbx          # 6033                  
+    halt                        # 00                    
+
+.pos 0x1000
+    .quad   0xa                 # 0a00000000000000      
+    halt                        # 00                    

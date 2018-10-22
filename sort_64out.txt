@@ -1,0 +1,50 @@
+.pos 0x100
+    irmovq  $0x1008, %rax         # 30f00810000000000000  
+    mrmovq  0x0(%rax), %rax # 50000000000000000000  
+    irmovq  $0x1000, %rcx         # 30f10010000000000000  
+    mrmovq  0x0(%rcx), %rcx # 50110000000000000000  
+    irmovq  $0x1, %rdi         # 30f70100000000000000  
+    subq    %rdi, %rax          # 6170                  
+    jl      0x1c3              # 72c301000000000000    
+    mrmovq  0x0(%rcx), %rbx # 50310000000000000000  
+    rrmovq  %rax, %rdx          # 2002                  
+    rrmovq  %rcx, %rsi          # 2016                  
+    irmovq  $0x8, %rdi         # 30f70800000000000000  
+    addq    %rdi, %rsi          # 6076                  
+    irmovq  $0x1, %rdi         # 30f70100000000000000  
+    subq    %rdi, %rdx          # 6172                  
+    jl      0x1ae              # 72ae01000000000000    
+    mrmovq  0x0(%rsi), %rdi # 50760000000000000000  
+    rrmovq  %rdi, %rbp          # 2075                  
+    subq    %rbx, %rbp          # 6135                  
+    jge     0x199              # 759901000000000000    
+    rmmovq  $0x0, %rsi         # 40360000000000000000  
+    rmmovq  $0x0, %rcx         # 40710000000000000000  
+    rrmovq  %rdi, %rbx          # 2073                  
+    irmovq  $0x8, %rdi         # 30f70800000000000000  
+    addq    %rdi, %rsi          # 6076                  
+    jmp     0x157              # 705701000000000000    
+    irmovq  $0x8, %rdi         # 30f70800000000000000  
+    addq    %rdi, %rcx          # 6071                  
+    jmp     0x128              # 702801000000000000    
+    halt                  # 00                    
+
+.pos 0x1001
+    rrmovq  %rax, %rax          # 2000                  
+    halt                  # 00                    
+
+.pos 0x1008
+    .quad   0xa  # 0a00000000000000      
+    halt                  # 00                    
+
+.pos 0x2000
+    .quad   0x7  # 0700000000000000      
+    .quad   0x3  # 0300000000000000      
+    .quad   0x4  # 0400000000000000      
+    .quad   0xa  # 0a00000000000000      
+    .quad   0x5  # 0500000000000000      
+    .quad   0x8  # 0800000000000000      
+    .quad   0x9  # 0900000000000000      
+    .quad   0x1  # 0100000000000000      
+    .quad   0x6  # 0600000000000000      
+    .quad   0x2  # 0200000000000000      

@@ -1,0 +1,4 @@
+    rrmovq  %rax, %rax          # 2000                  
+    halt                  # 00                    
+
+.pos 0x5

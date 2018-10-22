@@ -1,0 +1,3 @@
+.pos 0x9
+    nop                   # 10                    
+    halt                  # 00                    

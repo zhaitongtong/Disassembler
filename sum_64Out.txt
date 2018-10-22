@@ -1,0 +1,23 @@
+.pos 0x100
+    irmovq  $0x140, %rdx         # 30f24001000000000000  
+    xorq    %rax, %rax          # 6300                  
+    mrmovq  0x0(%rdx), %rbx # 50320000000000000000  
+    addq    %rbx, %rax          # 6030                  
+    irmovq  $0x8, %rbx         # 30f30800000000000000  
+    addq    %rbx, %rdx          # 6032                  
+    irmovq  $0x170, %rbx         # 30f37001000000000000  
+    subq    %rdx, %rbx          # 6123                  
+    jne     0x10c              # 740c01000000000000    
+    ret                   # 90                    
+    halt                  # 00                    
+
+.pos 0x140
+    .quad   0x123456789abc  # bc9a785634120000      
+    .quad   0x1111111111111  # 1111111111110100      
+    .quad   0xff  # ff00000000000000      
+    .quad   0x2468a  # 8a46020000000000      
+    .quad   0xba  # ba00000000000000      
+    .quad   0x10101010f0f0f0f0  # f0f0f0f010101010      
+    halt                  # 00                    
+
+.pos 0x178
